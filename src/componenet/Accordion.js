@@ -20,8 +20,6 @@ const Accordion=()=>{
    
 const handleShow=(index,value)=>{
     setindi(index)
-
-
 }
 
 return (

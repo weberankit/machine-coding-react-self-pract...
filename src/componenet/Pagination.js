@@ -23,7 +23,8 @@ function handleNext(){
 setPage((prev)=>{
     if(page>=(data.length/10)){
 
-//return 1
+//return 1 
+//stoping moving
 return page
     }
    return prev+1
