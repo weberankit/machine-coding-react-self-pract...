@@ -14,3 +14,51 @@ code {
 .page{
   background-color: red;
 }
+
+
+/**
+
+analog watch css
+*/
+
+.analog-clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-face {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.hand {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 1px;
+  background-color: black;
+  transform-origin: bottom;
+  transform: rotate(0deg);
+}
+
+.hour-hand {
+  height: 50px;
+  width: 5px;
+}
+
+.minute-hand {
+  height: 70px;
+  width: 3px;
+}
+
+.second-hand {
+  height: 90px;
+  width: 2px;
+  background-color: red;
+}

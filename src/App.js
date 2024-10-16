@@ -16,6 +16,8 @@ import AddCart from './componenet/AddCart';
 import Pagination from './componenet/Pagination';
 import BackendPagination from './componenet/BackendPagination';
 import Scrollintersection from './componenet/Intersection-api/Scrollintersection';
+import ClockPra from './practiseSamething/clockPra';
+import Infinite from "./componenet/InfiniteScrolling/Infinite1st"
 function App(){
   return(
     <>
@@ -30,15 +32,18 @@ function App(){
     <Accordion/>
         <SearchSuggestion/>
           <AddCart/>
-         <Pagination/>
          
-
+         
+<Scrollintersection/>
       <Clock/>
   <Slider/>
   <BackendPagination/>
-    */
+<Pagination/>
+<ClockPra/>
 
-<Scrollintersection/>
+
+    */
+<Infinite/>
 
  
     }
