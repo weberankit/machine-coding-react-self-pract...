@@ -1,3 +1,5 @@
+//also credit goes to this video also https://www.youtube.com/watch?v=MsHbwbeJR8g&t=32s
+
 import {useState,useEffect} from "react"
 const Infinite=()=>{
 const [list,setList]=useState()

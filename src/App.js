@@ -18,6 +18,10 @@ import BackendPagination from './componenet/BackendPagination';
 import Scrollintersection from './componenet/Intersection-api/Scrollintersection';
 import ClockPra from './practiseSamething/clockPra';
 import Infinite from "./componenet/InfiniteScrolling/Infinite1st"
+import WebDesign from './componenet/figma/WebDesign';
+import DarkCom from './componenet/DarkMode/DarkCom';
+import Form from './componenet/FormSubmit/Form';
+import FormUseRef from './componenet/FormSubmit/FormUseRef';
 function App(){
   return(
     <>
@@ -34,19 +38,25 @@ function App(){
           <AddCart/>
          
          
-<Scrollintersection/>
+
       <Clock/>
   <Slider/>
   <BackendPagination/>
 <Pagination/>
 <ClockPra/>
 
+<Infinite/>
+ <WebDesign/>
+ <DarkCom/>
+<Form/>
+ <FormUseRef/>
 
     */
-<Infinite/>
+<Scrollintersection/>
 
- 
     }
+
+   
     </>
   )
 }
