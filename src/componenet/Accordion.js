@@ -21,7 +21,7 @@ const Accordion=()=>{
 const handleShow=(index,value)=>{
     setindi(index)
 }
-
+/*
 return (
     <div className="accordion">
       {data.map((item, index) => (
@@ -29,9 +29,9 @@ return (
      
       ))}
     </div>
-  );
-//this below is used when we expand and close both together
-/*
+  );*/
+//this below is used when we want one open and on another open previous one must be close
+
     return(
         <>
         
@@ -54,7 +54,7 @@ return (
         
         
         </>
-    )*/
+    )
 
 }
 

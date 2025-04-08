@@ -22,6 +22,10 @@ import WebDesign from './componenet/figma/WebDesign';
 import DarkCom from './componenet/DarkMode/DarkCom';
 import Form from './componenet/FormSubmit/Form';
 import FormUseRef from './componenet/FormSubmit/FormUseRef';
+import ThirdToDoList from './componenet/to-do-list-with-cross/3rdTodolist';
+import InfiniteScroll2nd from './componenet/InfiniteScrolling/Infinite2nd';
+import ParentPhoneOtp from './componenet/OTP-form/ParentPhoneOtp';
+import OtpParent from './practiseSamething/otpInput/OtpParent';
 function App(){
   return(
     <>
@@ -31,32 +35,40 @@ function App(){
      <ToDoListAdv/>
      <AdvHighAddtowish/>
      <TodoList/>
-      
-      <LiftingOne/>
-    <Accordion/>
+
+ 
         <SearchSuggestion/>
           <AddCart/>
          
          
 
       <Clock/>
-  <Slider/>
+
   <BackendPagination/>
-<Pagination/>
+
 <ClockPra/>
 
-<Infinite/>
+
  <WebDesign/>
  <DarkCom/>
 <Form/>
  <FormUseRef/>
-
-    */
 <Scrollintersection/>
-
+<ThirdToDoList/>
+ <Accordion/>
+    <LiftingOne/>
+      <Infinite/>
+  <Pagination/>
+ <Slider/>
+<InfiniteScroll2nd/>
+  <ParentPhoneOtp/>
+    */
+  
+ 
+  
     }
-
-   
+ 
+   <OtpParent/>
     </>
   )
 }
